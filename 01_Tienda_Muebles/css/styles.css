@@ -237,3 +237,47 @@ img{
   font-weight: 900;
 }
 
+/****   FOOTER  *******/
+.site-footer{
+  margin-top: 5rem;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 5rem;
+}
+
+.grid-footer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+.site-footer h3{
+  margin-bottom: .5rem;
+}
+
+.footer-menu a{
+display:block
+
+}
+
+.copyright{
+  margin-top: 5rem;
+  text-align: center;
+
+}
+
+
+.contenido-nostros{
+  display: grid; 
+  grid-template-columns: 1fr 2fr;
+
+  /* es como un media query, cuando tengamos 250 px, reparte 1fr y 1fr
+  anunque no sustituye  al media query*/
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  column-gap: 4rem;
+}
+
+.informacion-nosotros{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
